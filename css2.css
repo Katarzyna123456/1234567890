@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(111, 191, 231);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(15, 106, 158);
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    animation:przesun 30s linear infinite;
+    -webkit-animation:przesun 10s linear infinite;
+}
+
+@keyframes przesun
+      {
+        0% { transform:translateX(0); padding-left:110%; }
+        100% { transform:translateX(-100%); padding-left:110%; }
+      }
+
+     
